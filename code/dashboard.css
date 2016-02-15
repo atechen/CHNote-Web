@@ -55,7 +55,11 @@ body {
 
 .conetnt {
   padding: 20px;
-  margin-top: 20px;
+  /*margin-top: 20px;*/
+  top: 20px;
+  bottom: 20px;
+  height: 100%;
+  overflow: auto;
 }
 @media (min-width: 768px) {
   .conetnt {

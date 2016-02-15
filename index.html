@@ -18,18 +18,17 @@
     <div class="container-fluid">
       <!-- 左侧 -->
       <div class="row col-sm-3 col-md-2 sidebar panel-group" id="accordion">
-        <!-- 操作系统 -->
+        
+        <!-- 操作系统和网络原理 -->
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse0">操作系统和网络远原理</a>
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse0">操作系统和网络原理</a>
             </h4>
           </div>
           <div id="collapse0" class="panel-collapse collapse in">
             <ul class="nav nav-sidebar panel-body">
-              <li><a href="#" onclick="testlog()">Linux</a></li>
-              <li><a href="#">Analytics</a></li>
-              <li><a href="#">Export</a></li>
+              <li><a onclick="itemClick(this)">Linux</a></li>
             </ul>
           </div>
         </div>
@@ -42,11 +41,16 @@
           </div>
           <div id="collapse1" class="panel-collapse collapse in">
             <ul class="nav nav-sidebar panel-body">
-              <li><a href="">Nav item</a></li>
-              <li><a href="">Nav item again</a></li>
-              <li><a href="">One more nav</a></li>
-              <li><a href="">Another nav item</a></li>
-              <li><a href="">More navigation</a></li>
+              <li><a onclick="itemClick(this)">01OC语法</a></li>
+              <li><a onclick="itemClick(this)">02UI界面</a></li>
+              <li><a onclick="itemClick(this)">03Foundation</a></li>
+              <li><a honclick="itemClick(this)">04数据持久化</a></li>
+              <li><a onclick="itemClick(this)">05多线程</a></li>
+              <li><a onclick="itemClick(this)">06网络请求</a></li>
+              <li><a onclick="itemClick(this)">07Xcode</a></li>
+              <li><a onclick="itemClick(this)">08多媒体</a></li>
+              <li><a onclick="itemClick(this)">10App资源</a></li>
+              <li><a onclick="itemClick(this)">13架构</a></li>
             </ul>
           </div>
         </div>
@@ -59,9 +63,7 @@
           </div>
           <div id="collapse2" class="panel-collapse collapse in">
             <ul class="nav nav-sidebar panel-body">
-              <li><a href="">Nav item again</a></li>
-              <li><a href="">One more nav</a></li>
-              <li><a href="">Another nav item</a></li>
+              <li><a onclick="itemClick(this)">Swift</a></li>
             </ul>
           </div>
         </div>
@@ -69,8 +71,7 @@
       </div>
 
       <!-- 右侧 -->
-      <iframe src="#" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 conetnt" frameborder="0">
-        
+      <iframe src="" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 conetnt" frameborder="0">
       </iframe>
 
     </div>
@@ -81,16 +82,22 @@
 
     <script type="text/javascript">
 
-      function testlog(){
-        $("iframe").attr("src","./iOS/07Xcode.html");
+      function itemClick(elementItem){
+        var fileName = elementItem.text;
+        console.log(fileName);
+        var floderName = elementItem.parentNode.parentNode.parentNode.parentNode.childNodes[1].childNodes[1].childNodes[1].text;
+        console.log("./"+floderName+"/"+fileName+".html");
+        // $("iframe").attr("src","./iOS/07Xcode.html");
+        $("iframe").attr("src", "./"+floderName+"/"+fileName+".html");
       }
 
       $(function () { $('#collapseFour').collapse({
         toggle: false
       })});
+      $(function () { $('#collapse0').collapse('show')});
       $(function () { $('#collapse1').collapse('show')});
-      $(function () { $('#collapse2').collapse('toggle')});
-      $(function () { $('#collapse0').collapse('hide')});
+      $(function () { $('#collapse2').collapse('show')});
+      
     </script> 
 
   </body>
