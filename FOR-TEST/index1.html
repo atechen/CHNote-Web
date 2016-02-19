@@ -1,0 +1,93 @@
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+
+    <title>资源列表</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./Code/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./Code/dashboard.css" rel="stylesheet">
+
+    <script src="./Code/CHNote.js"></script>
+    <script type="text/javascript">
+
+    </script> 
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <!-- 左侧 -->
+      <div class="row col-sm-3 col-md-2 panel-group" id="accordion" id="leftMenu">
+        
+        <!-- 操作系统和网络原理 -->
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse0">操作系统和网络原理</a>
+            </h4>
+          </div>
+          <div id="collapse0" class="panel-collapse collapse in">
+            <ul class="nav nav-sidebar panel-body">
+              <li><a onclick="itemClick(this)">Linux</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- iOS -->
+        <div class="panel panel-success">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">iOS</a>
+            </h4>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse in">
+            <ul class="nav nav-sidebar panel-body">
+              <li><a onclick="itemClick(this)">01OC语法</a></li>
+              <li><a onclick="itemClick(this)">02UI界面</a></li>
+              <li><a onclick="itemClick(this)">03Foundation</a></li>
+              <li><a honclick="itemClick(this)">04数据持久化</a></li>
+              <li><a onclick="itemClick(this)">05多线程</a></li>
+              <li><a onclick="itemClick(this)">06网络请求</a></li>
+              <li><a onclick="itemClick(this)">07Xcode</a></li>
+              <li><a onclick="itemClick(this)">08多媒体</a></li>
+              <li><a onclick="itemClick(this)">10App资源</a></li>
+              <li><a onclick="itemClick(this)">13架构</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Swift -->
+        <div class="panel panel-warning">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Swift</a>
+            </h4>
+          </div>
+          <div id="collapse2" class="panel-collapse collapse in">
+            <ul class="nav nav-sidebar panel-body">
+              <li><a onclick="itemClick(this)">Swift</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 右侧 -->
+      <iframe src="" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2" frameborder="0" id="mainContent">
+      </iframe>
+
+    </div>
+
+    <script src="./Code/jquery/jquery.min.js"></script>
+    <!-- Bootstrap core JavaScript-->
+    <script src="./Code/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      initStructure();
+      $(function () { $('#collapse0').collapse('show'); $('#collapse1').collapse('show'); $('#collapse2').collapse('show')});
+    </script> 
+
+  </body>
+</html>

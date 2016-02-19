@@ -1,0 +1,26 @@
+
+#articlePart{
+  float: left;
+  border:5px ;
+  border-color: black;
+  width: 47.5%;
+
+}
+
+#gitHubPart{
+  float: left;
+  margin-left: 5%;
+  width: 47.5%;
+}
+
+.partHeader{
+  background-color: #fcf8e2;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.partContent{
+  margin-top: 20px;
+
+}
