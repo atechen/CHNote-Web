@@ -5,6 +5,9 @@ var structureJson = {
 			"files":[
 				{
 					"fileName":"Linux.js"
+				},
+				{
+					"fileName":"Git.js"
 				}
 			]
 		},
@@ -12,34 +15,43 @@ var structureJson = {
 			"folderName":"iOS",
 			"files":[
 				{
-					"fileName":"01OC语法.js"
+					"fileName":"01OC.js"
 				},
 				{
-					"fileName":"02UI界面.js"
+					"fileName":"02多线程.js"
 				},
 				{
-					"fileName":"03Foundation.js"
+					"fileName":"02Foundation.js"
 				},
 				{
-					"fileName":"04数据持久化.js"
+					"fileName":"03UIKit.js"
 				},
 				{
-					"fileName":"05多线程.js"
+					"fileName":"04CoreGraphics.js"
 				},
 				{
-					"fileName":"06网络请求.js"
+					"fileName":"05CAAnimation.js"
 				},
 				{
-					"fileName":"07Xcode.js"
+					"fileName":"06数据持久化.js"
+				},
+				{
+					"fileName":"07网络.js"
 				},
 				{
 					"fileName":"08多媒体.js"
 				},
 				{
-					"fileName":"10App资源.js"
+					"fileName":"12Xcode和项目配置.js"
 				},
 				{
 					"fileName":"13架构.js"
+				},
+				{
+					"fileName":"App资源和博客.js"
+				},
+				{
+					"fileName":"其他.js"
 				}
 			]
 		},
@@ -51,9 +63,37 @@ var structureJson = {
 				},
 				{
 					"fileName":"02UI界面.js"
+				},
+				{
+					"fileName":"06数据持久化.js"
+				},
+				{
+					"fileName":"10动画.js"
+				},
+				{
+					"fileName":"13架构.js"
+				},
+				{
+					"fileName":"App资源和博客.js"
+				}
+
+			]
+		},
+		{
+			"folderName":"ReactiveJS",
+			"files":[
+				{
+					"fileName":"资源.js"
+				}
+			]
+		},
+		{
+			"folderName":"前端开发",
+			"files":[
+				{
+					"fileName":"工具.js"
 				}
 			]
 		}
-
 	]
 };

@@ -1,0 +1,69 @@
+var contentJson = {
+
+	//文章
+	"article":[
+	{
+		"title":"网络安全模型、iOS签名机制总结（登录、token安全、签名）",
+		"url":"http://ios.jobbole.com/84351/"
+	},
+	{
+		"title":"AFNetworking：如何使用ip直接访问https网站?",
+		"url":"http://segmentfault.com/a/1190000004359232?utm_source=Weibo"
+	},
+	{
+		"title":"AFNetworking3.0：迁移指南",
+		"url":"http://ios.jobbole.com/87171/"
+	},
+	{
+		"title":"AFNetworking3.0：封装",
+		"url":"http://www.henishuo.com/base-on-afnetworking3-0-wrapper/"
+	},
+	{
+		"title":"SDWebImage的实现结构以及源码解析",
+		"url":"http://www.jianshu.com/p/0d2d3fe61d68"
+	},
+	{
+		"title":"SDWebImage 笔记",
+		"url":"http://blog.csdn.net/a6472953/article/details/8669742"
+	},
+	{
+		"title":"SDWebImage-你真的会用SDWebImage？",
+		"url":"http://www.jianshu.com/p/dabc0c6d083e?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io"
+	},
+	{
+		"title":"ASI：使用ASIHTTPRequest与NSOperationQueue实现的下载管理",
+		"url":"http://www.jianshu.com/p/05bde6766e90"
+	},
+	{
+		"title":"推送：关于PushKit的使用总结",
+		"url":"http://www.cnblogs.com/cy568searchx/p/5211069.html"
+	},
+	{
+		"title":"推送：ios8新特性：pushkit实战总结（voip开发者必读）",
+		"url":"http://blog.csdn.net/openglnewbee/article/details/44807191"
+	},
+	{
+		"title":"推送：APNS",
+		"url":"https://github.com/ChenYilong/iOS9AdaptationTips/blob/master/%E5%9F%BA%E4%BA%8EHTTP2%E7%9A%84%E5%85%A8%E6%96%B0APNs%E5%8D%8F%E8%AE%AE/%E5%9F%BA%E4%BA%8EHTTP2%E7%9A%84%E5%85%A8%E6%96%B0APNs%E5%8D%8F%E8%AE%AE.md"
+	},
+	{
+		"title":"CocoaAsyncSocket：学习 （一）",
+		"url":"http://ios.jobbole.com/87181/"
+	}
+	],
+
+	//gitHub
+	"gitHub":[
+	{
+		"title":"猿题库网络请求封装",
+		"url":"https://github.com/yuantiku/YTKNetwork"
+	},
+	{
+		"title":"PushKit教程",
+		"url":"https://github.com/sinch/ios-pushkit-tutorial"
+	},
+	{
+		"title":"WebSocket",
+		"url":"https://github.com/lzwjava/Keynotes"
+	}]
+}

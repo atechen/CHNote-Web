@@ -1,8 +1,51 @@
 var contentJson = {
 
 	//文章
-	"article":[],
+	"article":[
+	{
+		"title":"IOS9，Photos框架基础汇总",
+		"url":"http://ms.csdn.net/geek/56031"
+	},
+	{
+		"title":"Mac搭建nginx+rtmp服务器",
+		"url":"http://www.henishuo.com/mac_nginx_rtmp_server/"
+	},
+	{
+		"title":"iOS仿微信小视频功能开发优化记录",
+		"url":"http://www.jianshu.com/p/6d35bb53f4ac?url_type=39&object_type=webpage&pos=1"
+	}
+	],
 
 	//gitHub
-	"gitHub":[]
+	"gitHub":[
+	{
+		"title":"基于AVPlayer的视频播放器",
+		"url":"https://github.com/renzifeng/ZFPlayer"
+	},
+	{
+		"title":"AudioStreamer",
+		"url":"https://github.com/mattgallagher/AudioStreamer"
+	},
+	{
+		"title":"StreamingKit",
+		"url":"https://github.com/tumtumtum/StreamingKit"
+	},
+	{
+		"title":"DOUAudioStreamer",
+		"url":"https://github.com/douban/DOUAudioStreamer"
+	},
+	{
+		"title":"ESTMusicPlayer:基于DOUAudioStreamer",
+		"url":"https://github.com/Aufree/ESTMusicPlayer"
+	},
+	{
+		"title":"TheAmazingAudioEngine",
+		"url":"https://github.com/TheAmazingAudioEngine/TheAmazingAudioEngine"
+	},
+	{
+		"title":"流媒体播放器-MobilePlayer",
+		"url":"https://github.com/mobileplayer/mobileplayer-ios?url_type=39&object_type=webpage&pos=1"
+	}
+	
+	]
 }

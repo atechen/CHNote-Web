@@ -1,0 +1,112 @@
+var contentJson = {
+
+	//文章
+	"article":[
+	{
+		"title":"Xcode：重构",
+		"url":"http://www.cocoachina.com/cms/wap.php?action=article&id=15097"
+	},
+	{
+		"title":"Xcode：全面剖析",
+		"url":"http://gold.xitu.io/entry/578f3a6a165abd00674705fa/view"
+	},,
+	{
+		"title":"持续集成1",
+		"url":"http://m.blog.csdn.net/article/details?id=47007329"
+	},
+	{
+		"title":"持续集成2",
+		"url":"http://www.devlizy.com/ios-da-bao-quan-cheng-pei-zhi/"
+	},
+	{
+		"title":"持续集成3",
+		"url":"http://everettjf.github.io/2015/09/08/ios-ci-with-fastlane"
+	},
+	{
+		"title":"持续集成:iOS持续集成从入门到放弃(1)",
+		"url":"http://www.jianshu.com/p/0b22d6a8969d"
+	},
+	{
+		"title":"持续集成:基于 Node.js 的自动化持续集成 - 阿里出品",
+		"url":"https://cnodejs.org/topic/56e8d829cf7763a6045c4af8"
+	},
+	{
+		"title":"持续集成:实践教程 -- 合集",
+		"url":"http://blog.fir.im/fir_im_weekly160505/?hmsr=gold.xitu.io/&utm_medium=gold.xitu.io&utm_source=gold.xitu.io"
+	},
+	{
+		"title":"自动化打包",
+		"url":"http://ios.jobbole.com/84677/#comment-90352"
+	},
+	{
+		"title":"自动化打包: iOS自动打包程序mac版,我遇到的那些坑(一)界面篇 ",
+		"url":"http://www.eryige.com/thread-192-1-1.html"
+	},
+	{
+		"title":"自动化打包: iOS自动打包程序mac版,我遇到的那些坑(二) 打包命令篇 ",
+		"url":"http://www.eryige.com/thread-195-1-1.html"
+	},
+	{
+		"title":"自动化打包: iOS自动打包程序mac版,我遇到的那些坑(三)",
+		"url":"http://www.eryige.com/thread-200-1-1.html"
+	},
+	{
+		"title":"CocoaPods:简介及安装和使用",
+		"url":"http://m.blog.csdn.net/article/details?id=44410373"
+	},
+	{
+		"title":"Cocoapods:创建私有podspec",
+		"url":"http://blog.wtlucky.com/blog/2015/02/26/create-private-podspec/"
+	},
+	{
+		"title":"CocoaPods:一个Pod发布到CocoaPods上",
+		"url":"http://blog.csdn.net/becomedragonlong/article/details/45933345#0-tsina-1-22915-397232"
+	},
+	{
+		"title":"CocoaPods:略为高级一丁点的使用",
+		"url":"http://www.open-open.com/lib/view/open1442462680602.html"
+	},
+	{
+		"title":"CocoaPods:在Swift中使用",
+		"url":"http://andelf.github.io/blog/2014/06/23/use-cocoapods-with-swift/"
+	},
+	{
+		"title":"内存检测",
+		"url":"http://wereadteam.github.io/2016/02/22/MLeaksFinder/"
+	},
+	{
+		"title":"检测和监控APP性能的一些方法",
+		"url":"http://www.starming.com/index.php?v=index&view=91"
+	},
+	{
+		"title":"UIAutomation 苹果提供的自动化测试框架",
+		"url":"http://yulingtianxia.com/blog/2016/03/28/Add-UITest-Label-for-UIAutomation/"
+	},
+	{
+		"title":"Instruments：定位iOS应用的Memory Leaks",
+		"url":"http://ios.jobbole.com/87087/"
+	}],
+
+	//gitHub
+	"gitHub":[
+	{
+		"title":"UI调试插件Injection",
+		"url":"https://github.com/johnno1962/injectionforxcode?url_type=39&object_type=webpage&pos=1"
+	},
+	{
+		"title":"UI调试工具Dyi",
+		"url":"https://github.com/DyCI/dyci-main?url_type=39&object_type=webpage&pos=1"
+	},
+	{
+		"title":"调试工具-HeapInspector",
+		"url":"https://github.com/tapwork/HeapInspector-for-iOS"
+	},
+	{
+		"title":"xcode安装和模拟器安装脚本",
+		"url":"https://github.com/neonichu/xcode-install"
+	},
+	{
+		"title":"阿里自动化测试解决方案",
+		"url":"https://github.com/alibaba/macaca"
+	}]
+}
